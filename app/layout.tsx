@@ -1,16 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import {
-  Bricolage_Grotesque,
-  Hanken_Grotesk,
-  JetBrains_Mono,
-} from "next/font/google";
+import { Space_Grotesk, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-// Type as personality : un grotesque à fort caractère pour les titres, un
-// grotesque plus neutre pour le corps, un mono pour les données mesurées.
-const display = Bricolage_Grotesque({
+// Type system hi-fi : un grotesque géométrique net pour les titres, un
+// grotesque doux pour le corps, un mono technique pour les données mesurées.
+const display = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["500", "700", "800"],
+  weight: ["500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });

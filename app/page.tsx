@@ -264,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* ── Outils ──────────────────────────────────────────────────────── */}
-      <section className="section dark" id="tools">
+      <section className="section" id="tools">
         <div className="wrap">
           <div className="shead">
             <span className="kicker">Surface MCP</span>
